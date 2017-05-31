@@ -1,0 +1,13 @@
+# make some changes 
+
+
+# add all files to staging
+git add -A
+
+# make a commit (a checkpoint!)
+git commit -m "A description your code"
+
+# send it github 
+git push 
+
+kjhjkhkj

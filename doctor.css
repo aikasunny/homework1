@@ -1,0 +1,105 @@
+body {
+	background-image: url(docpic.jpg);
+	background-size: 1000px;
+
+}
+
+
+/*Nav bar code
+*/
+body {
+	margin: 42px;
+	transition: margin-top all 400ms;
+}
+
+nav li {
+	display: inline-block;
+	/*border:1px solid black;*/
+	padding: 3px;
+	margin: 10px;
+}
+
+nav {
+	background-color: grey;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.bigger {
+	font-size: 2em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+section {
+	height: 600px;
+	padding-top: 42px;
+	margin-top: -42px;
+}
+nav ul {
+	margin: 0;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+#menu-button {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	display: none;
+	background: transparent;
+	font-size: 28px;
+	cursor: pointer;
+	/*z-index: 2;*/
+}
+
+#certificates.row div {
+	border: 1px solid black;
+	/*TODO remove this later */
+	height: 200px;
+}
+
+#experience .row div {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img-responsive {
+	width: 100%
+}
+/*mobile styles here */
+@media (max-width: 768px) {
+	#menu-button {
+		display: block;
+	}
+
+	nav {
+		display: none;
+	}
+
+	nav li {
+		display: block;
+	}
+
+	.move-down {
+		margin-top: 138px;
+	}
+
+	.move-down section {
+		padding-top: 138px;
+		margin-top: -138px;
+	}
+	}
+	
+
+	-webkit-box-sizing: 1px;
+	-moz-box-sizing: 1px;
+	box-sizing: 1px;
